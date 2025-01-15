@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        CurrentStatus currentStatus = new CurrentStatus();
-        NewStatus newStatus = new NewStatus();
+        Display currentStatus = new CurrentStatus();
+        Display newStatus = new NewStatus();
 
         System.out.println("CURRENT STATUS PARKING SLOT");
         currentStatus.currentDisplay();
