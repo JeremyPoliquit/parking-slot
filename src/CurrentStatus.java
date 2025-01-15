@@ -10,8 +10,5 @@ public class CurrentStatus extends Display {
     }
 
     @Override
-    void newDisplay() {
-        // Optionally, provide an implementation here or leave this method empty.
-        System.out.println("New display not implemented in CurrentStatus.");
-    }
+    void newDisplay() {}
 }

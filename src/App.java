@@ -6,7 +6,7 @@ public class App {
         System.out.println("CURRENT STATUS PARKING SLOT");
         currentStatus.currentDisplay();
 
-        for (int i = 1; i <= 3; i++) {
+        for (int i = 1; i <= 2; i++) {
             System.out.println();
         }
 
