@@ -3,14 +3,13 @@ public class App {
         Display currentStatus = new CurrentStatus();
         Display newStatus = new NewStatus();
 
+        System.out.println("-----WELCOME TO SM PARKING-----");
         System.out.println("CURRENT STATUS PARKING SLOT");
         currentStatus.currentDisplay();
 
-        for (int i = 1; i <= 2; i++) {
-            System.out.println();
-        }
+        // Just for spacing
+        System.out.println();
 
-        System.out.println("NEW STATUS PARKING SLOT");
         newStatus.newDisplay();
     }
 }
